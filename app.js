@@ -8,6 +8,8 @@ const {
 
 const PORT = 3005
 
+// для пулл реквеста
+
 const server = http.createServer((req, res) => {
     const url = req.url;
     switch (url) {
